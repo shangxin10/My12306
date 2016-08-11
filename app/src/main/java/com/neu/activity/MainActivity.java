@@ -1,7 +1,9 @@
-package com.vector.my12306;
+package com.neu.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.vector.my12306.R;
 
 public class MainActivity extends AppCompatActivity {
 

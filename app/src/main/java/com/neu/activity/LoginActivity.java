@@ -8,12 +8,12 @@ import com.vector.my12306.R;
 /**
  * Created by zhang on 2016/8/10.
  */
-public class WelcomeActivity extends AppCompatActivity{
+public class LoginActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_welcome);
+        setContentView(R.layout.activity_login);
+        setTitle("登录");
     }
-
 }
