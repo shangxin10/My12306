@@ -17,7 +17,7 @@
    <!--RegisterActivity-->
     <string name="basicInfo">基本信息</string>
     <string name="regusername">用 户 名</string>
-    <string name="usernamehint">字母、数字或'_',6-30位</string>
+    <string name="usernamehint">字母、数字,6-30位</string>
     <string name="regpassword">密    码</string>
     <string name="passwordhint">不少于6位</string>
     <string name="passwordsure">密码确认</string>
@@ -38,4 +38,11 @@
     <string name="agree">同意</string>
     <string name="server">服务条款</string>
     <string name="next">下一步</string>
+    <string name="adult">成人</string>
+    <string name="IDCard">身份证</string>
+    <string name="commit">提交</string>
+
+    <string name="net_error">当前网路不可用</string>
+    <string name="contactadd">数据加载中</string>
+    <string name="logining">正在登录中，请稍后...</string>
 </resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" android:padding="10dp">
+    <!--定义单钟颜色填充-->
+    <solid android:color="#3385ff" />
+    <!--定义为几何图片绘制边框-->
+    <!--
+    <stroke
+        android:width="1dip"
+        android:dashWidth="1dp"
+        android:color="#000"
+        android:dashGap="1dp"/>
+        -->
+    <!--定义几何图形大小-->
+    <!--
+        <size
+            android:width="1dp"
+            android:color="#fff"
+            android:dashWidth="1dp"
+            android:dashGap="1dp"
+        />
+    -->
+    <!--定义使用渐变色填充-->
+    <!--
+    <gradient
+
+        android:centerColor="@color/colorAccent"
+        android:endColor="@color/colorPrimary"
+        android:startColor="@color/white"/>
+     -->
+    <!--定义几何图形的四个角的四个维度-->
+
+    <corners
+        android:bottomRightRadius="3dp"
+        android:bottomLeftRadius="3dp"
+        android:topLeftRadius="3dp"
+        android:topRightRadius="3dp" />
+</shape>

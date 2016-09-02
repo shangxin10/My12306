@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/tvTicketResultStepBefore"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:background="@color/blue"
+            android:gravity="center"
+            android:text="前一天"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvTicketResultStepDateTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2014-8-18 周一"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/tvTicketResultStepStationTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="北京-大连"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvTicketResultStepAfter"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:background="@color/blue"
+            android:gravity="center"
+            android:text="后一天"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvTicketResultStep"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </ListView>
+
+
+</LinearLayout>

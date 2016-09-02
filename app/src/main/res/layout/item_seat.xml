@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="30dp">
+        <TextView
+            android:id="@+id/tv_seatName"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:text="高级软卧"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:id="@+id/seatcount"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="48张"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:id="@+id/tv_seatPrice"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:text="￥200"
+            android:textColor="#f77c10"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            />
+        <Button
+            android:id="@+id/btn_yy"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="预订"
+            android:background="@color/blue"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+
+            android:layout_margin="5dp"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

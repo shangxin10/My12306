@@ -1,26 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.vector.my12306">
-
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/icon"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/NOTitle">
+        android:theme="@style/AppTheme"
+        >
         <activity android:name="com.neu.activity.MainActivity">
-
         </activity>
-        <activity android:name="com.neu.activity.WelcomeActivity"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
-        <activity android:name="com.neu.activity.OrderActivity"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
-        <activity android:name="com.neu.activity.MyActivity"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
-        <activity android:name="com.neu.activity.TicketActivity"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
-        <activity android:name="com.neu.activity.LoginActivity"
-
+        <activity
+            android:name="com.neu.activity.SplashActivity"
+            android:theme="@style/NOTitle"
             >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,6 +23,22 @@
             </intent-filter>
         </activity>
 
+        <activity android:name="com.neu.activity.RegisterActivity"/>
+        <activity android:name="com.neu.activity.LoginActivity">
+        </activity>
+        <activity android:name="com.neu.activity.NewContactActivity">
+            </activity>
+        <activity android:name="com.neu.activity.MyContactActivity"/>
+        <activity android:name="com.neu.activity.UpdateContactActivity"/>
+        <activity android:name="com.neu.activity.MyaccountActivity"/>
+        <activity android:name="com.neu.activity.UpdatePasswordActivity"/>
+        <activity android:name="com.neu.ticket.StationListActivity"/>
+        <activity android:name="com.neu.ticket.TicketResultStepActivity"/>
+        <activity android:name="com.neu.ticket.TicketResultStep2Activity"/>
+        <activity android:name="com.neu.ticket.TicketResultStep3Activity"/>
+        <activity android:name="com.neu.ticket.TicketResultStep4Activity"/>
+        <activity android:name="com.neu.ticket.TicketResultStep5Activity"/>
+        <activity android:name="com.neu.ticket.CustomerActivity"/>
     </application>
 
 </manifest>
